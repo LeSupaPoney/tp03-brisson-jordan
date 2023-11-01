@@ -1,0 +1,12 @@
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Nom</th>
+      <th>Prix</th>
+    </tr>
+    <tr *ngFor="let product of filteredProducts">
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+    </tr>
+  </table>
